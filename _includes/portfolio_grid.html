@@ -1,0 +1,31 @@
+<div class="col-md-12 main content-panel">
+    <div class="articles">
+        <h2 class="section-heading">Portfolio</h2>
+
+
+        <div class="row">
+
+
+            {% for post in site.posts %}
+            <div class="col-md-6 portfolio-item">
+                <a href="{{ post.github-link }}" target="_blank">
+
+                    <img src="img/portfolio/{{ post.thumbnail }}" class="img-responsive" alt="">
+
+                </a>
+
+                <div class="portfolio-caption">
+                    <h6>{{ post.github-link }}</h6>
+                    <h4>{{ post.title }}</h4>
+
+                    <p class="text-muted">{{ post.subtitle }}</p>
+                </div>
+            </div>
+            {% endfor %}
+
+
+        </div>
+
+
+    </div>
+</div>
