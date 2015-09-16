@@ -6,7 +6,7 @@ baseurl: ""
 url: "http://kostassiabanis.com/"
 title_description: "By day, I am an IT expert (12+ years) working with databases (sql or not), gathering and reporting on data and customising ERP systems. I am also a passionate self taught full-stack developer (5+ years) that worked on several projects using PHP and MySQL and now focusing exclusively on JavaScript both on the client and the server."
 title_image: "https://avatars1.githubusercontent.com/u/3550488?v=3&s=460"
-#google_analytics: "UA-20365477-4"
+google_analytics: "UA-1883903-9"
 #disqus_account: cartenoire
 github_repository: "https://github.com/ksiabani"
 #addthis_id: ra-513c6fa83da6ec67
